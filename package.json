@@ -1,0 +1,15 @@
+{
+  "name": "mrporter-atc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./resources && chromedriver.exe --url-base=/wd/hub --port=4321 | node ../index.js"
+  },
+  "author": "Kondax",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^4.12.0"
+  }
+}
